@@ -1,0 +1,48 @@
+
+
+.weather{
+    position: relative;
+    margin: 0 auto;
+
+    max-width: 350px;
+    min-height: 100vh;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#fff;
+}
+.weather >.notData{
+    margin-top: 15%;
+    z-index: 1111111;
+}
+
+.weather > .back{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: .4;
+    z-index: 11;
+}
+.weather > .background-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    filter: blur(0.5px);
+}
+
+.weather > input{
+    padding: 10px;
+    border:none;
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+    z-index: 1111;
+}
